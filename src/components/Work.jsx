@@ -5,8 +5,6 @@ import classes from "../assets/classes.png";
 import project2 from "../assets/Project_2.png";
 import project3 from "../assets/Project_3.png";
 
-
-
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -30,7 +28,10 @@ const Work = () => {
                 Blockchain Project
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/YADNYESHMD/NFTMarketplace" target="_blank">
+                <a
+                  href="https://github.com/YADNYESHMD/NFTMarketplace"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-blod text-lg ">
                     Code
                   </button>
@@ -46,7 +47,7 @@ const Work = () => {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Coaching Class Portal 
+                Coaching Class Portal
               </span>
               <div className="pt-8 text-center">
                 <a href="https://kamalclasses23012023.web.app/" target="_blank">
@@ -65,12 +66,17 @@ const Work = () => {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Next JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://colab.research.google.com/drive/1C8kZj50EdiiCrrZYcpe8zeQB3pU7dTrw" target="_blank">
+                <a href="https://github.com/YADNYESHMD/yflix" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-blod text-lg ">
                     Code
+                  </button>
+                </a>
+                <a href="https://yflix.vercel.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-blod text-lg ">
+                    Demo
                   </button>
                 </a>
               </div>
