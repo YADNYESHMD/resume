@@ -69,12 +69,20 @@ const Work = () => {
                 Next JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/YADNYESHMD/yflix" target="_blank">
+                <a
+                  href="https://github.com/YADNYESHMD/yflix"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-blod text-lg ">
                     Code
                   </button>
                 </a>
-                <a href="https://yflix.vercel.app/" target="_blank">
+                <a
+                  href="https://yflix.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-blod text-lg ">
                     Demo
                   </button>

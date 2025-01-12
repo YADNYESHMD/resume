@@ -12,23 +12,25 @@ const Home = () => {
           Yadnyesh Mahadeshwar
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a full Stack Web Developer
+          Application Developer | Technical Analyst
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          A passionate MERN Stack developer with expertise in Python programming
-          and a strong understanding of Blockchain concepts. Excited to
-          contribute to dynamic projects that push the boundaries of innovation.
+          With expertise in blockchain development, SAP solutions, and
+          application development, I bring a unique combination of innovative
+          thinking and technical skills to build scalable solutions. My journey
+          has been shaped by my work in developing full-stack web applications,
+          integrating blockchain technology, and optimizing business workflows
+          through SAP tools. I’m passionate about solving real-world problems
+          through technology and delivering impactful results.
         </p>
         <div>
-        <Link to="work" smooth={true} duration={500}>
-          <button className="text-white group border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600 ">
-            
-              Work
-            <span className='group-hover:rotate-90 duration-300' >
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-            
-          </button>
+          <Link to="work" smooth={true} duration={500}>
+            <button className="text-white group border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600 ">
+              Explore My Work
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
           </Link>
         </div>
       </div>

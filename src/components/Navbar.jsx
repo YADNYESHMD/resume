@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 navbar">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "45px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "45px" }} />
       </div>
       {/* Menu */}
       <ul className="hidden md:flex">
@@ -22,7 +22,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="experience" smooth={true} duration={500}>
+          <Link to="experience" smooth={true} duration={500} offset={-100}>
             Experience
           </Link>
         </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500} offset={-50}>
             Contact
           </Link>
         </li>
@@ -62,7 +62,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="experience" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="experience"
+            smooth={true}
+            duration={500}
+          >
             Experience
           </Link>
         </li>
@@ -90,7 +95,7 @@ const Navbar = () => {
             <a
               href="https://www.linkedin.com/in/yadnyesh-mahadeshwar-72532a11a/"
               className="w-[160px] h-[60px] flex justify-between items-center"
-              target='blank'
+              target="blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -99,16 +104,16 @@ const Navbar = () => {
             <a
               href="https://github.com/YADNYESHMD"
               className="w-[160px] h-[60px] flex justify-between items-center"
-              target='blank'
+              target="blank"
             >
               GitHub <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="https://drive.google.com/file/d/1vfv3OIgJbeCAtDntaKLJRhGJzSSYWQz1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Wwl48z9ddFVmUPG8zRXpxdSKVzzZ8FFM/view?usp=drive_link"
               className="w-[160px] h-[60px] flex justify-between items-center"
-              target='blank'
+              target="blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

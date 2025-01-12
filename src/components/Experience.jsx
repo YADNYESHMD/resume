@@ -7,7 +7,10 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
   return (
-    <div name="experience" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div
+      name="experience"
+      className="w-full min-h-screen bg-[#0a192f] text-gray-300"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid gap-8">
           <div className="text-center sm:pb-8 pl-4">
@@ -17,22 +20,44 @@ const Experience = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full px-4 grid gap-8">
-          <VerticalTimeline className='z-50'>
+          <VerticalTimeline className="z-50">
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#122645" }}
               contentArrowStyle={{ borderRight: "7px solid  #122645)" }}
-              date="June 2022 - September 2022,"
+              date="Aug 2023 - Current"
+            >
+              <h3 className="vertical-timeline-element-title font-bold text-pink-600">
+                Technical Analyst | Application Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Nuvoco Vistas Corp. Ltd.
+              </h4>
+              <p>
+                - Developing applications to streamline audit and quality
+                assurance processes.
+                <br />
+                - Creating Python tools for data processing and automation.
+                <br />- Supporting SAP Hybris and S/4HANA integration for
+                enhanced system efficiency.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "#122645" }}
+              contentArrowStyle={{ borderRight: "7px solid  #122645)" }}
+              date="March 2023 - June 2023"
             >
               <h3 className="vertical-timeline-element-title font-bold text-pink-600">
                 Blockchain Developer Intern
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Snapper Future Tech
+                WTM IT Limited
               </h4>
               <p>
-                Researched on Polygon blockchain and also assited on DAO
-                project.
+                Worked on crypto payments for MLM software in Tron, Ethereum and
+                Binance Blockchain{" "}
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -53,15 +78,18 @@ const Experience = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#122645" }}
               contentArrowStyle={{ borderRight: "7px solid  #122645)" }}
-              date="March 2023 - June 2023"
+              date="June 2022 - September 2022,"
             >
               <h3 className="vertical-timeline-element-title font-bold text-pink-600">
                 Blockchain Developer Intern
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                WTM IT Limited 
+                Snapper Future Tech
               </h4>
-              <p>Worked on crypto payments for MLM software in Tron, Ethereum and Binance Blockchain </p>
+              <p>
+                Researched on Polygon blockchain and also assited on DAO
+                project.
+              </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

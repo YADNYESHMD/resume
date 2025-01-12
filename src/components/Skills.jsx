@@ -9,6 +9,8 @@ import Solidity from "../assets/solidity.png";
 import MongoDB from "../assets/mongo.png";
 import NextJS from "../assets/next.png";
 import HardHat from "../assets/hardhat.png";
+import sql from "../assets/sql.png";
+import SAP from "../assets/SAP.png";
 
 const Skills = () => {
   return (
@@ -24,14 +26,6 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML ICON" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="CSS ICON" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto"
               src={JavaScript}
@@ -41,16 +35,26 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="ReactImg ICON" />
-            <p className="my-4">React</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Solidity} alt="Tailwind ICON" />
-            <p className="my-4">Solidity</p>
+            <p className="my-4">React / React Native</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={NextJS} alt="MongoDB ICON" />
             <p className="my-4">NextJS</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={sql} alt="HTML ICON" />
+            <p className="my-4">SQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={SAP} alt="SAP ICON" />
+            <p className="my-4">SAP</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Solidity} alt="Tailwind ICON" />
+            <p className="my-4">Solidity</p>
+          </div>
+
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Truffle} alt="Truffle ICON" />
             <p className="my-4">Truffle</p>
